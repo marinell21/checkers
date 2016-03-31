@@ -1,5 +1,6 @@
 body{
 background-color: #FAFB88;
+overflow: hidden;
 }
 
 /* Typography */
@@ -80,7 +81,6 @@ textarea {
 	position: absolute;
 	width: 12.5%;
 	height: 12.5%;
-
 }
 /* position lines */
 .ba-line:first-child {
