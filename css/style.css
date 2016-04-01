@@ -1,6 +1,6 @@
 body{
-background-color: #FAFB88;
-overflow: hidden;
+	background-color: #FAFB88;
+	overflow: hidden;
 }
 
 /* Typography */
@@ -72,15 +72,15 @@ textarea {
 	border: 1px solid #B0B1B2;
 	outline: 20px solid #fff;
 }
-.ba-line {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
 .ba-box {
 	position: absolute;
 	width: 12.5%;
 	height: 12.5%;
+}
+.ba-line {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 /* position lines */
 .ba-line:first-child {
@@ -177,7 +177,111 @@ textarea {
 .ba-line:nth-child(2) .ba-box:nth-child(even):hover:after,
 .ba-line:nth-child(6) .ba-box:nth-child(even):hover:after,
 .ba-line:nth-child(8) .ba-box:nth-child(even):hover:after,
-.ba-line:nth-child(7) .ba-box:nth-child(odd):hover:after{
+.ba-line:nth-child(7) .ba-box:nth-child(odd):hover:after {
 	margin-top: 0;
 }
-
+/* numbers on board */
+.ba-line:after {
+	position: absolute;
+	top: 4%;
+	left: -3%;
+}
+.ba-line:before {
+	position: absolute;
+	top: 4%;
+	right: -3%;
+}
+.ba-line:nth-child(1):after, .ba-line:nth-child(1):before {
+	content: "1";
+}
+.ba-line:nth-child(2):after, .ba-line:nth-child(2):before {
+	content: "2";
+}
+.ba-line:nth-child(3):after, .ba-line:nth-child(3):before {
+	content: "3";
+}
+.ba-line:nth-child(4):after, .ba-line:nth-child(4):before {
+	content: "4";
+}
+.ba-line:nth-child(5):after, .ba-line:nth-child(5):before {
+	content: "5";
+}
+.ba-line:nth-child(6):after, .ba-line:nth-child(6):before {
+	content: "6";
+}
+.ba-line:nth-child(7):after, .ba-line:nth-child(7):before {
+	content: "7";
+}
+.ba-line:nth-child(8):after, .ba-line:nth-child(8):before {
+	content: "8";
+}
+/* letters on board */
+.ba-box:before {
+	position: absolute;
+	top: -30%;
+	left: 40%;
+}
+.ba-line:first-child .ba-box:nth-child(1):before {
+	content: "A";
+}
+.ba-line:first-child .ba-box:nth-child(2):before {
+	content: "B";
+}
+.ba-line:first-child .ba-box:nth-child(3):before {
+	content: "C";
+}
+.ba-line:first-child .ba-box:nth-child(4):before {
+	content: "D";
+}
+.ba-line:first-child .ba-box:nth-child(5):before {
+	content: "E";
+}
+.ba-line:first-child .ba-box:nth-child(6):before {
+	content: "F";
+}
+.ba-line:first-child .ba-box:nth-child(7):before {
+	content: "G";
+}
+.ba-line:first-child .ba-box:nth-child(8):before {
+	content: "H";
+}
+.ba-line:last-child .ba-box:nth-child(1):before {
+	content: "A";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(2):before {
+	content: "B";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(3):before {
+	content: "C";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(4):before {
+	content: "D";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(5):before {
+	content: "E";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(6):before {
+	content: "F";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(7):before {
+	content: "G";
+	top: 105%;
+	left: 40%;
+}
+.ba-line:last-child .ba-box:nth-child(8):before {
+	content: "H";
+	top: 105%;
+	left: 40%;
+}
