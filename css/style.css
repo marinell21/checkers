@@ -183,12 +183,12 @@ textarea {
 /* numbers on board */
 .ba-line:after {
 	position: absolute;
-	top: 4%;
+	top: 30%;
 	left: -3%;
 }
 .ba-line:before {
 	position: absolute;
-	top: 4%;
+	top: 30%;
 	right: -3%;
 }
 .ba-line:nth-child(1):after, .ba-line:nth-child(1):before {
